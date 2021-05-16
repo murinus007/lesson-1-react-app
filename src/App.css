@@ -1,38 +1,109 @@
-.App {
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-top: 1.875rem;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  list-style:none;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.header__nav li {
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0;
+}
+
+.block {
+  margin-top: 150px;
+}
+
+.about {
+  background-color: rgb(94, 136, 52);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-line {
+  height: 1px;
+  min-width: 30%;
+  background-color: darkblue;
+  margin: auto;
+}
+
+.title {
+  font-size: 2rem;
+  color: aqua;
+}
+
+.about__description {
+  color: brown;
+}
+
+.contacts__description {
+  color: aliceblue;
+}
+
+.description {
+  margin-top: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item {
+  height: 250px;
+  width: 300px;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-bottom: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about__item {
+  background-color: burlywood;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contacts__item {
+  background-color: blue;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  display: block;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item-name {
+  text-align: center;
+  font-size: 1.5em;
 }
+
+.item-text {
+  text-align: center;
+}
+
+.item__btn {
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.cancel-btn {
+  background-color: red;
+}
+
+.contacts {
+  background-color: coral;
+}
+
